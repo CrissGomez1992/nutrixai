@@ -1,8 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.NutrixAI" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <!-- Tema de la app: Material 3 en claro, sin barra de título automática -->
+    <style name="Base.Theme.NutrixAI" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/verde_principal</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/verde_claro</item>
+        <item name="colorOnPrimaryContainer">@color/verde_oscuro</item>
+        <item name="colorSecondaryContainer">@color/verde_claro</item>
+        <item name="colorOnSecondaryContainer">@color/verde_oscuro</item>
+        <item name="android:colorBackground">@color/fondo</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnBackground">@color/texto_principal</item>
+        <item name="colorOnSurface">@color/texto_principal</item>
     </style>
 
     <style name="Theme.NutrixAI" parent="Base.Theme.NutrixAI" />

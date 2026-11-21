@@ -2,4 +2,17 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta de NutrixAI -->
+    <color name="verde_principal">#2E7D32</color>
+    <color name="verde_oscuro">#1B5E20</color>
+    <color name="verde_claro">#E3F1E4</color>
+    <color name="fondo">#F6FAF6</color>
+    <color name="texto_principal">#1B3A24</color>
+    <color name="texto_secundario">#555555</color>
+
+    <!-- Un color por macronutriente -->
+    <color name="macro_carbos">#FFB300</color>
+    <color name="macro_proteina">#E53935</color>
+    <color name="macro_grasa">#1E88E5</color>
 </resources>
