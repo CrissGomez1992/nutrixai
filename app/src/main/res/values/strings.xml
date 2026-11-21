@@ -33,4 +33,23 @@
 
     <string name="tipo_comida_sugerencia">Si no eliges, se registrará como %1$s según la hora</string>
 
+    <!-- Análisis del plato -->
+    <string name="analizando">Analizando el plato…</string>
+    <string name="calorias_valor">≈ %1$d</string>
+    <string name="unidad_kcal">kcal</string>
+    <string name="macro_carbohidratos">Carbohidratos</string>
+    <string name="macro_proteinas">Proteínas</string>
+    <string name="macro_grasas">Grasas</string>
+    <string name="valor_gramos">%1$d g</string>
+    <string name="ingredientes_titulo">Ingredientes probables</string>
+    <string name="aviso_resultado">Estimación aproximada, no es consejo médico.</string>
+    <string name="error_modelo">No se pudo analizar la foto</string>
+
+    <!-- Detalle de ingredientes -->
+    <string name="sin_ingredientes">No se encontró ningún ingrediente con probabilidad suficiente</string>
+    <string name="ver_detalle">Ver detalle de probabilidades</string>
+    <string name="ocultar_detalle">Ocultar detalle</string>
+    <string name="detalle_explicacion">Los 3 ingredientes más probables según el modelo. Se muestran como etiquetas los que superan el %1$d %%.</string>
+    <string name="porcentaje">%1$d %%</string>
+
 </resources>
