@@ -8,6 +8,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -40,6 +41,13 @@ public class MainActivity extends AppCompatActivity {
             return false;
         });
 
+        // Pulsar otra vez la pestaña activa vuelve a su pantalla inicial
+        menu.setOnItemReselectedListener(item -> {
+            if (item.getItemId() == R.id.nav_escanear) {
+                mostrar(new HomeFragment());
+            }
+        });
+
         // Al abrir la app por primera vez, empezamos en "Escanear"
         if (savedInstanceState == null) {
             menu.setSelectedItemId(R.id.nav_escanear);
@@ -48,8 +56,10 @@ public class MainActivity extends AppCompatActivity {
 
     // Cambia el contenido del hueco central por el fragmento indicado
     private void mostrar(Fragment fragmento) {
-        getSupportFragmentManager()
-                .beginTransaction()
+        FragmentManager gestor = getSupportFragmentManager();
+        // Vaciamos la pila de vuelta: cambiar de pestaña empieza de cero
+        gestor.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+        gestor.beginTransaction()
                 .replace(R.id.contenedor, fragmento)
                 .commit();
     }

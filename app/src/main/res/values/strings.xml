@@ -17,4 +17,20 @@
 
     <!-- Provisional: se quita cuando conectemos los botones -->
     <string name="pronto">Disponible en la siguiente parte</string>
+
+    <!-- Resultado -->
+    <string name="resultado_titulo">Resultado</string>
+    <string name="btn_nueva_foto">Nueva foto</string>
+    <string name="foto_descripcion">Foto del plato</string>
+    <string name="error_foto">No se pudo obtener la foto</string>
+
+    <!-- Tipo de comida -->
+    <string name="tipo_comida_titulo">¿Qué comida es?</string>
+    <string name="tipo_desayuno">Desayuno</string>
+    <string name="tipo_almuerzo">Almuerzo</string>
+    <string name="tipo_cena">Cena</string>
+    <string name="tipo_snack">Snack</string>
+
+    <string name="tipo_comida_sugerencia">Si no eliges, se registrará como %1$s según la hora</string>
+
 </resources>
