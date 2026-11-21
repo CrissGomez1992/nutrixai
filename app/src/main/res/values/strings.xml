@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">NutrixAI</string>
+
+    <!-- Menú inferior -->
+    <string name="menu_escanear">Escanear</string>
+    <string name="menu_historial">Historial</string>
+
+    <!-- Pantalla de inicio -->
+    <string name="inicio_titulo">Haz una foto a tu plato</string>
+    <string name="inicio_subtitulo">Estima calorías, carbohidratos, proteínas y grasas, y los ingredientes más probables</string>
+    <string name="btn_hacer_foto">Hacer foto</string>
+    <string name="btn_galeria">Elegir de la galería</string>
+    <string name="aviso_orientativo">Estimación orientativa a partir de una foto. No sustituye el consejo de un profesional.</string>
+
+    <!-- Historial -->
+    <string name="historial_vacio">Aún no hay platos guardados</string>
+
+    <!-- Provisional: se quita cuando conectemos los botones -->
+    <string name="pronto">Disponible en la siguiente parte</string>
 </resources>
