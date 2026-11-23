@@ -1,6 +1,7 @@
 package us.desarrollo.nutrixai;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -11,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        // Inicio de sesión anónimo: cada móvil recibe su propio identificador de usuario
+        FirebaseAuth autenticacion = FirebaseAuth.getInstance();
+        if (autenticacion.getCurrentUser() == null) {
+            autenticacion.signInAnonymously()
+                    .addOnFailureListener(e -> Toast.makeText(this,
+                            R.string.error_sesion, Toast.LENGTH_LONG).show());
+        }
 
         BottomNavigationView menu = findViewById(R.id.bottom_nav);
 

@@ -13,3 +13,9 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Datos de Firebase de cada desarrollador (se descarga de la consola)
+/app/google-services.json
+
+# Configuracion personal del editor
+/.idea/

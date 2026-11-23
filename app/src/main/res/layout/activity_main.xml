@@ -19,5 +19,9 @@
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:minHeight="64dp"
+        app:backgroundTint="@color/white"
+        app:itemPaddingBottom="8dp"
+        app:itemPaddingTop="8dp"
         app:menu="@menu/menu_inferior" />
 </LinearLayout>

@@ -52,4 +52,44 @@
     <string name="detalle_explicacion">Los 3 ingredientes más probables según el modelo. Se muestran como etiquetas los que superan el %1$d %%.</string>
     <string name="porcentaje">%1$d %%</string>
 
+    <!-- Sesión -->
+    <string name="error_sesion">No se pudo iniciar sesión. Revisa tu conexión a internet.</string>
+
+    <!-- Historial: lista y resumen -->
+    <string name="historial_titulo">Historial</string>
+    <string name="resumen_platos">Platos</string>
+    <string name="resumen_media">Media kcal</string>
+    <string name="resumen_hoy">Hoy (kcal)</string>
+    <string name="kcal_valor">%1$d kcal</string>
+    <string name="macros_resumen">C %1$d · P %2$d · G %3$d</string>
+    <string name="fecha_hoy">Hoy, %1$s</string>
+    <string name="fecha_ayer">Ayer, %1$s</string>
+    <string name="fecha_otro">%1$s, %2$s</string>
+    <string name="tipo_fecha">%1$s · %2$s</string>
+    <string name="error_historial">No se pudo cargar el historial</string>
+
+    <!-- Historial: borrar -->
+    <string name="borrar">Borrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="borrar_titulo">¿Borrar este plato?</string>
+    <string name="borrar_mensaje">Se eliminará del historial junto con su foto.</string>
+    <string name="plato_borrado">Plato borrado</string>
+    <string name="error_borrar">No se pudo borrar el plato</string>
+
+    <!-- Editar ingredientes -->
+    <string name="btn_editar_ingredientes">Editar ingredientes</string>
+    <string name="editar_titulo">Tus ingredientes</string>
+    <string name="editar_explicacion" formatted="false">Quita los que no estén y añade los que falten. Los que dejes se guardarán con probabilidad 100 %.</string>
+    <string name="editar_hint">Añadir ingrediente</string>
+    <string name="editar_anadir">Añadir</string>
+    <string name="editar_aplicar">Aplicar</string>
+    <string name="ingredientes_confirmados" formatted="false">Ingredientes confirmados por ti · 100 %</string>
+    <string name="sin_ingredientes_editado">No has indicado ningún ingrediente</string>
+
+    <!-- Guardar -->
+    <string name="btn_guardar">Guardar plato</string>
+    <string name="guardando">Guardando…</string>
+    <string name="plato_guardado">Plato guardado</string>
+    <string name="error_guardar">No se pudo guardar. Revisa tu conexión a internet.</string>
+
 </resources>

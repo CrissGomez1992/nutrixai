@@ -23,10 +23,12 @@ public class ResultadoPrediccion {
     public final float umbral;          // probabilidad mínima para mostrar un ingrediente
     public final List<Ingrediente> ingredientes;    // los que superan el umbral
     public final List<Ingrediente> masProbables;    // los más probables, superen o no el umbral
+    public final List<Ingrediente> todas;           // los 75, de más a menos probable
 
     public ResultadoPrediccion(float calorias, float carbohidratos, float proteinas, float grasas,
                                float umbral, List<Ingrediente> ingredientes,
-                               List<Ingrediente> masProbables) {
+                               List<Ingrediente> masProbables, List<Ingrediente> todas) {
+        this.todas = todas;
         this.calorias = calorias;
         this.carbohidratos = carbohidratos;
         this.proteinas = proteinas;

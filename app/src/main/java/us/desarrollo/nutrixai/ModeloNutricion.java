@@ -131,7 +131,7 @@ public class ModeloNutricion implements Closeable {
                 ordenados.subList(0, Math.min(TOP_DETALLE, ordenados.size())));
 
         return new ResultadoPrediccion(macros[0], macros[1], macros[2], macros[3],
-                umbral, sobreUmbral, masProbables);
+                umbral, sobreUmbral, masProbables, ordenados);
     }
 
     // Une cada nombre con su probabilidad y ordena de mayor a menor

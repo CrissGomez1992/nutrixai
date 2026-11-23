@@ -16,7 +16,7 @@
         android:layout_weight="1" />
 
     <ImageView
-        android:layout_width="300dp"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:contentDescription="@string/inicio_titulo"

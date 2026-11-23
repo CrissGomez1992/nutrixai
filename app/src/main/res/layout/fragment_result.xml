@@ -25,7 +25,7 @@
         <!-- La foto elegida o hecha por el usuario -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
-            android:layout_height="280dp"
+            android:layout_height="190dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="0dp">
@@ -287,6 +287,27 @@
                 android:textSize="14sp"
                 android:visibility="gone" />
 
+            <!-- Aviso que solo se ve cuando el usuario ha corregido los ingredientes -->
+            <TextView
+                android:id="@+id/txt_confirmados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/ingredientes_confirmados"
+                android:textColor="@color/verde_principal"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <!-- Abre la ventana para quitar o añadir ingredientes -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_editar_ingredientes"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/btn_editar_ingredientes" />
+
             <!-- Botón que despliega o recoge el detalle de probabilidades -->
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_detalle"
@@ -382,6 +403,15 @@
             android:layout_marginTop="8dp"
             android:textColor="@color/texto_secundario"
             android:textSize="12sp" />
+
+        <!-- Se activa cuando el modelo termina de analizar -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_guardar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:enabled="false"
+            android:text="@string/btn_guardar" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_nueva_foto"
