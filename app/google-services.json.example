@@ -1,0 +1,31 @@
+{
+  "_aviso": "Plantilla con la estructura del archivo. NO es valida. Descarga el google-services.json real de tu proyecto en la consola de Firebase y guardalo como app/google-services.json (ese archivo esta en .gitignore).",
+  "project_info": {
+    "project_number": "TU_NUMERO_DE_PROYECTO",
+    "firebase_url": "https://TU_PROYECTO-default-rtdb.REGION.firebasedatabase.app",
+    "project_id": "TU_ID_DE_PROYECTO",
+    "storage_bucket": "TU_ID_DE_PROYECTO.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "TU_ID_DE_APP",
+        "android_client_info": {
+          "package_name": "us.desarrollo.nutrixai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "TU_CLAVE_DE_API"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
